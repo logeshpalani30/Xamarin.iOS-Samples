@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4DACE304-12AA-4E2D-AE95-DAA5BF3F2C26}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
+    <Files>
+      <File FileName="Main.storyboard" />
+      <File FileName="ViewController.cs" Line="16" Column="9" />
+      <File FileName="Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TableViewDemo" expanded="True">
+            <Node name="TableViewDemo" expanded="True">
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TableViewDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.926bb507a1c6900e7c5d8b81a5cf93cd099fbac2" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
