@@ -3,12 +3,12 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-        <ProjectGuid>{2828AB14-DB7D-43F9-B70D-6A5EBE0C69F5}</ProjectGuid>
+        <ProjectGuid>{AAA9FC82-8CD4-4D91-B3AF-DCD4B95DFA7A}</ProjectGuid>
         <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <TemplateGuid>{edc1b0fa-90cd-4038-8fad-98fe74adb368}</TemplateGuid>
         <OutputType>Exe</OutputType>
-        <RootNamespace>ChildViewControlleriOSDemo</RootNamespace>
-        <AssemblyName>ChildViewControlleriOSDemo</AssemblyName>
+        <RootNamespace>ManageChildVC</RootNamespace>
+        <AssemblyName>ManageChildVC</AssemblyName>
         <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
         <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
@@ -67,10 +67,7 @@
         <Reference Include="System.Numerics.Vectors" />
     </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
-      <PackageReference Include="Xamarin.iOS.MaterialComponents">
-        <Version>72.2.0.1</Version>
-      </PackageReference>
+      <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
     </ItemGroup>
     <ItemGroup>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -122,6 +119,7 @@
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
         <InterfaceDefinition Include="Main.storyboard" />
+        <InterfaceDefinition Include="TabCollectionViewCell.xib" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Info.plist" />
@@ -135,14 +133,20 @@
         <Compile Include="ViewController.designer.cs">
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
-        <Compile Include="BookingsViewController.cs" />
-        <Compile Include="BookingsViewController.designer.cs">
-          <DependentUpon>BookingsViewController.cs</DependentUpon>
+        <Compile Include="SecondChildViewController.cs" />
+        <Compile Include="SecondChildViewController.designer.cs">
+          <DependentUpon>SecondChildViewController.cs</DependentUpon>
         </Compile>
-        <Compile Include="StatisticsViewController.cs" />
-        <Compile Include="StatisticsViewController.designer.cs">
-          <DependentUpon>StatisticsViewController.cs</DependentUpon>
+        <Compile Include="FirstChildViewController.cs" />
+        <Compile Include="FirstChildViewController.designer.cs">
+          <DependentUpon>FirstChildViewController.cs</DependentUpon>
         </Compile>
+        <Compile Include="TabCollectionViewCell.cs" />
+        <Compile Include="TabCollectionViewCell.designer.cs">
+          <DependentUpon>TabCollectionViewCell.cs</DependentUpon>
+        </Compile>
+        <Compile Include="CollectionViewSource.cs" />
+        <Compile Include="ITab.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

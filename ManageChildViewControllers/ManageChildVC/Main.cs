@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace ChildViewControlleriOSDemo
+namespace ManageChildVC
 {
     public class Application
     {
