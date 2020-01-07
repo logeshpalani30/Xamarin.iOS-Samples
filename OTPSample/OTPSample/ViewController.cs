@@ -24,12 +24,12 @@ namespace OTPSample
             fieldTwo.BackgroundColor = UIColor.Clear;
             fieldThree.BackgroundColor = UIColor.Clear;
             fieldFour.BackgroundColor = UIColor.Clear;
-
         }
 
         [Export("textField:shouldChangeCharactersInRange:replacementString:")]
         public bool ShouldChangeCharacters(UITextField textField, NSRange range, string replacementString)
         {
+            // Increment Responder change
             if (textField.Text?.Length < 1 && replacementString.Length > 0)
             {
                 if (textField == fieldOne)
@@ -44,6 +44,7 @@ namespace OTPSample
                 textField.Text = replacementString;
                 return false;
             }
+            //Decrement Responder change
             else if (textField.Text?.Length >= 1 && replacementString.Length == 0)
             {
                 if (textField == fieldTwo)
