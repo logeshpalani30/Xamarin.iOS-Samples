@@ -1,0 +1,13 @@
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/bin/iPhone/Debug/OTPSample.exe
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/bin/iPhone/Debug/OTPSample.pdb
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/bin/iPhone/Debug/Xamarin.Essentials.dll
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/bin/iPhone/Debug/Xamarin.Essentials.pdb
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/device-builds/iphone8.2-13.3/ibtool/_BundleResourceWithLogicalName.items
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/device-builds/iphone8.2-13.3/actool/_PartialAppManifest.items
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/device-builds/iphone8.2-13.3/actool/_BundleResourceWithLogicalName.items
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/device-builds/iphone8.2-13.3/coremlc/_PartialAppManifest.items
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/device-builds/iphone8.2-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/device-builds/iphone8.2-13.3/optimized/
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/OTPSample.csproj.CopyComplete
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/OTPSample.exe
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/iPhone/Debug/OTPSample.pdb

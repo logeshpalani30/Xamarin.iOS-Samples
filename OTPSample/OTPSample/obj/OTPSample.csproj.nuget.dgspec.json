@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/OTPSample.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/OTPSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/OTPSample.csproj",
+        "projectName": "OTPSample",
+        "projectPath": "/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/OTPSample.csproj",
+        "packagesPath": "/Users/Murugesan/.nuget/packages/",
+        "outputPath": "/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Murugesan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

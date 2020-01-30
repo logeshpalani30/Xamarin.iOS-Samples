@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocPicker", "DocPicker\DocPicker.csproj", "{7FF75174-1F6E-45CA-9892-6A89340955A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7FF75174-1F6E-45CA-9892-6A89340955A3}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

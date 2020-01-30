@@ -1,0 +1,10 @@
+/Volumes/Data/Logesh/Projects/Xamarin.iOS-Samples/OTPSample/OTPSample/bin/iPhone/Debug/OTPSample.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Numerics.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Core.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Net.Http.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll

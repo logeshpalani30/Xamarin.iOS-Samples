@@ -3,12 +3,16 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ManageChildVC" expanded="True" selected="True" />
+          <Node name="ManageChildVC" expanded="True">
+            <Node name="ManageChildVC" expanded="True">
+              <Node name="Packages" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ManageChildVC PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8C0A874B-9614-4FB9-AA70-E2C78899FF5B" />
+  <MonoDevelop.Ide.ItemProperties.ManageChildVC PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7D864909-4F95-4EC7-AEFF-0E978D0AD73A" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

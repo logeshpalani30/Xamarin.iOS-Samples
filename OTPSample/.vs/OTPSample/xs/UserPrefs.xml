@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{F9042049-5008-4E0F-8672-01C703B0E445}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="OTPSample/ViewController.cs">
     <Files>
-      <File FileName="OTPSample/ViewController.cs" Line="19" Column="38" />
+      <File FileName="OTPSample/ViewController.cs" Line="21" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OTPSample" expanded="True">
             <Node name="OTPSample" expanded="True">
-              <Node name="ViewController.cs" selected="True" />
+              <Node name="ViewController.cs" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
@@ -21,5 +21,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.OTPSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3e772f1e6a07ad3824853e632897cd01bf257a84" />
+  <MonoDevelop.Ide.ItemProperties.OTPSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.926bb507a1c6900e7c5d8b81a5cf93cd099fbac2" />
 </Properties>

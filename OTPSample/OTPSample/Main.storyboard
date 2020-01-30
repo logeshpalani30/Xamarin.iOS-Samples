@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,16 +20,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="197">
-                                <rect key="frame" x="124.5" y="170" width="165" height="50"/>
+                                <rect key="frame" x="124.5" y="194" width="165" height="50"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f1l-bc-ltF" adjustsFontForContentSizeCategory="YES" borderStyle="roundedRect">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f1l-bc-ltF">
                                         <rect key="frame" x="0.0" y="0.0" width="36" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="36" id="iYr-Uc-Oud"/>
                                         </constraints>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jh-sZ-hzB">
                                         <rect key="frame" x="43" y="0.0" width="36" height="50"/>
@@ -59,8 +60,11 @@
                                     <constraint firstAttribute="height" constant="50" id="F05-C7-1rw"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter OTP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyv-G2-aws" misplaced="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter OTP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyv-G2-aws">
                                 <rect key="frame" x="145.5" y="71" width="123.5" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123.5" id="67i-co-r5k"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -68,17 +72,17 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Eyv-G2-aws" firstAttribute="centerX" secondItem="197" secondAttribute="centerX" id="8ui-EC-HkM"/>
+                            <constraint firstItem="Eyv-G2-aws" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="Jfe-QC-VOX"/>
                             <constraint firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RYI-j9-9UO"/>
-                            <constraint firstItem="Eyv-G2-aws" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="51" id="WJV-7V-oU2"/>
                             <constraint firstItem="197" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="aF0-F3-84Y"/>
-                            <constraint firstItem="Eyv-G2-aws" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEZ-EL-bSn"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="fieldOne" destination="f1l-bc-ltF" id="name-outlet-f1l-bc-ltF"/>
-                        <outlet property="fieldTwo" destination="9jh-sZ-hzB" id="name-outlet-9jh-sZ-hzB"/>
-                        <outlet property="fieldThree" destination="sLd-rH-Cje" id="name-outlet-sLd-rH-Cje"/>
                         <outlet property="fieldFour" destination="bJt-Ij-i8J" id="name-outlet-bJt-Ij-i8J"/>
+                        <outlet property="fieldOne" destination="f1l-bc-ltF" id="name-outlet-f1l-bc-ltF"/>
+                        <outlet property="fieldThree" destination="sLd-rH-Cje" id="name-outlet-sLd-rH-Cje"/>
+                        <outlet property="fieldTwo" destination="9jh-sZ-hzB" id="name-outlet-9jh-sZ-hzB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

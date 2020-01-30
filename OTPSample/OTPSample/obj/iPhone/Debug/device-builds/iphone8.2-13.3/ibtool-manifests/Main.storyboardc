@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict/>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>f1l-bc-ltF</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>f1l-bc-ltF</string>
+				</array>
+				<key>message</key>
+				<string>Automatically Adjusts Font requires using a Dynamic Type text style</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
