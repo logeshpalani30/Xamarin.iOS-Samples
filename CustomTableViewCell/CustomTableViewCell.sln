@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTableViewCell", "CustomTableViewCell\CustomTableViewCell.csproj", "{0679B450-4731-4CCF-ADBE-B8409D4D81BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{0679B450-4731-4CCF-ADBE-B8409D4D81BA}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal
