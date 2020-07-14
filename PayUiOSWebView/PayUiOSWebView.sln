@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayUiOSWebView", "PayUiOSWebView.csproj", "{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3EAC78FF-2A73-4F53-97B8-6DADE2B5CB56}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal
